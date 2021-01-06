@@ -1,0 +1,90 @@
+body{
+	font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg2.jpg');
+}
+
+.left{
+	display: inline-block;
+	position: absolute;
+	left: 60px;
+	top: 20px;
+}
+
+.left img{
+	width: 164px;
+}
+
+.left div{
+	line-height: 19px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.mid{
+	display: block;
+	width: 60%;
+	margin: 60px 210px;
+}
+
+.right{
+	position: absolute;
+	right: 34px;
+	top: 43px;
+	display: inline-block;
+}
+
+.navbar{
+	display: inline-block;
+}
+
+.navbar li{
+	display: inline-block;
+	font-size: 25px;
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+	padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active{
+	text-decoration: underline;
+	color: grey;
+}
+
+.btn{
+	font-family: 'Baloo Bhai', cursive;
+	margin: 0px 9px;
+	background-color: black;
+	color: white;
+	padding: 4px 14px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: rgb(31,30,30);
+}
+
+.container{
+	border: 2px solid white;
+	margin: 160px 50px;
+	padding: 70px;
+	width: 80%;
+	border-radius: 28px;
+}
+
+.container h1{
+	text-align: center;
+}
+
+.container p{
+	font-size: 20px
+}
