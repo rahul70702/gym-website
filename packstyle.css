@@ -161,6 +161,7 @@ body {
     }
 
 .collapsible {
+  font-family: 'Baloo Bhai', cursive;
   background-color: #eee;
   color: #444;
   cursor: pointer;
